@@ -7,14 +7,15 @@
     background-color: #e15f41;
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
     background-color: #fff;
     color: #e15f41;
 }
 
 .navbar-brand,
 .navbar-brand:hover,
-.nav .nav-link {
+#cabecalho .nav .nav-link,
+.nav-cardapio .nav-link.active:hover {
     color: #fff;
 }
 
@@ -27,10 +28,19 @@
     background-color: #ffeae6;
 }
 
-#sobre {
+#sobre, #cardapio {
     background-color: #ffeae6;
 }
 
 .text-colored {
+    color: #e15f41;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #e15f41;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
     color: #e15f41;
 }
